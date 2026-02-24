@@ -407,7 +407,7 @@
 # MAGIC DROP VIEW IF EXISTS metrics.retail_metrics;
 # MAGIC
 # MAGIC -- 비즈니스 친화적인 차원과 지표를 포함한 Metric View 생성
-# MAGIC CREATE VIEW metrics.retail_metrics
+# MAGIC CREATE VIEW medemo_ykko.metrics.retail_metricstrics.retail_metrics
 # MAGIC WITH METRICS
 # MAGIC LANGUAGE YAML
 # MAGIC COMMENT '소매 지표 데모'
